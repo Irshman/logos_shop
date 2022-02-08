@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Logos</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220208151503">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="loader"></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<span class="menu__sub">Меню</span>
+					</div>
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="header__logo"></picture>
+					<form action="" class="header__form form-header">
+						<i class="fas fa-map-marker-alt"></i>
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите адрес доставки" class="form-header__input">
+						<button type="submit" class="form-header__button"><i class="fas fa-search"></i></button>
+					</form>
+					<div class="header__phone phone-header">
+						<div class="phone-header__logo">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<div class="phone-header__info">
+							<div class="phone-header__sup-title">Контакты:</div>
+							<a class="phone-header__phone" href="tel:+79175105759">+7 (917) 510-57-59</a>
+						</div>
+					</div>
+					<div data-popup="#cart" class="header__cart cart-header">
+						<a href="" class="cart-header__button"><i class="fas fa-shopping-cart"></i><span>Корзина</span></a>
+						<div class="cart-header__count">4</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__menu menu-page">
+				<div class="menu-page__container">
+					<div class="menu-page__menu">
+						<nav class="menu-page__body">
+							<ul class="menu-page__list">
+								<li class="menu-page__item"><a href="" class="menu-page__link menu-page__link--active">Холодные закуски</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Горячие закуски</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Мясные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Супы</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Рыбные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Гриль меню</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Фирменные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Напитки</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__order order-page">
+				<div class="order-page__container">
+					<div class="order-page__header header-order">
+						<div class="header-order__back back">
+							<a href="cart.html" class="header-order__link-back"><i class="fas fa-chevron-left"></i>Вернуться назад</a>
+						</div>
+						<h1 class="header-order__title title">Оформление заказа</h1>
+					</div>
+
+					<div class="order-page__body body-order">
+						<form class="body-order__form">
+
+							<div class="body-order__info info-order">
+								<h2 class="info-order__title input-title">1. Контактная информация</h2>
+								<div class="info-order__inputs">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя*" class="info-order__input input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Телефон*" class="info-order__input input">
+								</div>
+							</div>
+
+							<div class="body-order__delivery delivery-order">
+								<h2 class="delivery-order__title input-title">2. Доставка</h2>
+
+								<div data-tabs class="delivery-order__tabs tabs-order">
+									<nav data-tabs-titles class="tabs-order__navigation">
+										<button type="button" class="tabs-order__title _tab-active tabs-order__title_one ">Доставка</button>
+										<button type="button" class="tabs-order__title tabs-order__title_two">Самовывоз</button>
+										<span class="tabs-order__time"><i class="far fa-clock"></i> Доставим через 1 час 30 минут</span>
+									</nav>
+									<div data-tabs-body class="tabs-order__content">
+										<div class="tabs-order__body body-tabs">
+											<h3 class="body-tabs__main-title input-title">Адрес доставки</h3>
+
+											<div class="body-tabs__body body-inputs">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Укажите улицу*" class="body-inputs__street input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Номер дома*" class="body-inputs__number input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="№ квартиры/офиса" class="body-inputs__kv input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Подъезд" class="body-inputs__underground input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Этаж" class="body-inputs__floor input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Комментарий" class="body-inputs__comment input">
+											</div>
+										</div>
+										<div class="tabs-order__body body-tabs">
+											<h3 class="body-tabs__main-title input-title">Выберите ресторан</h3>
+
+											<div data-spollers class="body-tabs__spollers spollers">
+												<div class="body-tabs__item spollers__item">
+													<button type="button" data-spoller class="body-tabs__title spollers__title">Выберите ресторан</button>
+													<div class="spollers__body">
+														<ul class="body-tabs__list">
+															<li class="body-tabs__item">Pесторан 1</li>
+															<li class="body-tabs__item">Pесторан 2</li>
+															<li class="body-tabs__item">Pесторан 3</li>
+															<li class="body-tabs__item">Pесторан 4</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="body-order__pay pay-order">
+								<h2 class="pay-order__title input-title">3. Оплатить</h2>
+
+								<div class="pay-order__body body-pay">
+									<div data-tabs class="body-pay">
+										<nav data-tabs-titles class="body-pay__list">
+											<a href="" class="body-pay__btn body-pay__btn--active">Онлайн</a>
+											<a href="" class="body-pay__btn">Картой</a>
+											<a href="" class="body-pay__btn">Наличными</a>
+										</nav>
+									</div>
+								</div>
+							</div>
+
+							<div class="body-order__footer footer-order">
+								<div class="footer-order__body">
+									<div class="footer-order__wrap">
+										<div class="checkbox">
+											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text"></span></label>
+										</div>
+										<div class="footer-order__text">Я согласен на обработку моих перс. данных в соответствии с <a href="">Условиями</a></div>
+									</div>
+									<button type="submit" class="button">Оформить заказ</button>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<button class="footer__button"><i class="fas fa-chevron-up"></i></button>
+				</div>
+				<div class="footer__column">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="footer__logo"></picture>
+					<div class="footer__text">© ООО СК «АПШЕРОН» Все права защищены. 2010-2020</div>
+					<ul class="footer__list">
+						<li class="footer__item"><a class="footer__link" href="">Пользовательское соглашение</a></li>
+						<li class="footer__item"><a class="footer__link" href="">Карта сайта</a></li>
+						<li class="footer__item"><a class="footer__link" href="">Политика конфиденциальности</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<div class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="home.html" class="menu-footer__link">О ресторане</a></li>
+							<li class="menu-footer__item"><a href="delivery.html" class="menu-footer__link">Условия доставки</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Возврат товара</a></li>
+							<li class="menu-footer__item"><a href="sale.html" class="menu-footer__link">Акции</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="cart" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><i class="fas fa-times"></i></button>
+				<div class="popup__body">
+					<picture><source srcset="img/popup/cart.webp" type="image/webp"><img src="img/popup/cart.png" alt="cart"></picture>
+					<h1 class="popup__title">КОРЗИНА ПУСТАЯ</h1>
+					<a href="" class="popup__button button">Посмотреть меню</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/509657b079.js?_v=20220208151503" crossorigin="anonymous"></script>
+	<script src="js/app.min.js?_v=20220208151503"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Logos</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220208151503">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="loader"></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<span class="menu__sub">Меню</span>
+					</div>
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="header__logo"></picture>
+					<form action="" class="header__form form-header">
+						<i class="fas fa-map-marker-alt"></i>
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите адрес доставки" class="form-header__input">
+						<button type="submit" class="form-header__button"><i class="fas fa-search"></i></button>
+					</form>
+					<div class="header__phone phone-header">
+						<div class="phone-header__logo">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<div class="phone-header__info">
+							<div class="phone-header__sup-title">Контакты:</div>
+							<a class="phone-header__phone" href="tel:+79175105759">+7 (917) 510-57-59</a>
+						</div>
+					</div>
+					<div data-popup="#cart" class="header__cart cart-header">
+						<a href="" class="cart-header__button"><i class="fas fa-shopping-cart"></i><span>Корзина</span></a>
+						<div class="cart-header__count">4</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__menu menu-page">
+				<div class="menu-page__container">
+					<div class="menu-page__menu">
+						<nav class="menu-page__body">
+							<ul class="menu-page__list">
+								<li class="menu-page__item"><a href="" class="menu-page__link menu-page__link--active">Холодные закуски</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Горячие закуски</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Мясные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Супы</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Рыбные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Гриль меню</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Фирменные блюда</a></li>
+								<li class="menu-page__item"><a href="" class="menu-page__link">Напитки</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__product product-cart">
+				<div class="product-cart__container">
+					<div class="product-cart__back back">
+						<a href="home.html" class="product-cart__link-back"><i class="fas fa-chevron-left"></i>Вернуться назад</a>
+					</div>
+					<div class="product-cart__body body-product">
+						<div class="body-product__image-ibg">
+							<picture><source srcset="img/product-cart/image.webp" type="image/webp"><img src="img/product-cart/image.png" alt="Picture"></picture>
+						</div>
+						<div class="body-product__info">
+							<h2 class="body-product__title"><a href="">Ягненок</a></h2>
+							<div class="body-product__text">помидор, сыр фета, масло подсолнечное, капуста пекинская, перец сладкий красный, огурцы, оливки без косточек</div>
+							<div class="body-product__weight">Вес: 210 г</div>
+							<div class="body-product__buttons">
+								<button class="body-product__button button"><span>Корзина</span><i class="fas fa-shopping-cart"></i></button>
+								<div class="body-product__price">259 ₽</div>
+							</div>
+							<div class="body-product__footer footer-product">
+								<table class="footer-product__table">
+									<tbody>
+										<tr>
+											<td class="footer-product__title">Белки</td>
+											<td class="footer-product__title">Жиры</td>
+											<td class="footer-product__title">Углеводы</td>
+											<td class="footer-product__title">Ккал</td>
+											<td class="footer-product__title">Вес</td>
+										</tr>
+										<tr>
+											<td class="footer-product__count">17.23</td>
+											<td class="footer-product__count">7.63</td>
+											<td class="footer-product__count">22.35</td>
+											<td class="footer-product__count">234</td>
+											<td class="footer-product__count">210 г</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__cards cards-page">
+				<div class="cards-page__container">
+					<h1 class="cards-page__title title">С ЭТИМ ТОВАРОМ ПОКУПАЮТ</h1>
+				</div>
+				<div class="cards-page__wrap">
+					<div class="cards-page__body body-card">
+						<div class="body-card__slider swiper">
+							<div class="body-card__wrapper swiper-wrapper">
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/01.webp" type="image/webp"><img src="img/cards/01.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Ягненок</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">620 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/02.webp" type="image/webp"><img src="img/cards/02.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Индейка</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">620 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/03.webp" type="image/webp"><img src="img/cards/03.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Гусь</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">17 900 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/04.webp" type="image/webp"><img src="img/cards/04.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Утка</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">17 900 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/01.webp" type="image/webp"><img src="img/cards/01.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Ягненок</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">620 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/02.webp" type="image/webp"><img src="img/cards/02.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Индейка</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">620 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/03.webp" type="image/webp"><img src="img/cards/03.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Гусь</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">17 900 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="body-card__slide swiper-slide">
+									<div class="body-card__item">
+										<picture><source srcset="img/cards/04.webp" type="image/webp"><img src="img/cards/04.jpg" alt="" class="body-card__image"></picture>
+										<div class="body-card__body">
+											<div class="body-card__top">
+												<h2 class="body-card__title"><a href="product-cart.html">Утка</a></h2>
+												<div class="body-card__weight">Вес: 225 г</div>
+											</div>
+											<div class="body-card__info">Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком</div>
+											<div class="body-card__footer">
+												<div class="body-card__price">17 900 ₽</div>
+												<button class="body-card__button button"><span>В корзину</span><i class="fas fa-cart-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="page__maps maps">Picture
+				<div class="maps__container">
+					<div class="maps__body">
+						<h2 class="maps__title">КОНТАКТЫ</h2>
+						<div class="maps__info info-maps">
+							<div class="info-maps__sup-title"><i class="fas fa-map-marker-alt"></i>Наш адрес:</div>
+							<div class="info-maps__title"><a href="">МО, городской округ Красногорск, село Ильинкое, Экспериментальная улица, 10</a></div>
+
+							<div class="info-maps__sup-title"><i class="far fa-envelope"></i>Наша почта:</div>
+							<div class="info-maps__title"><a href="mailto:auto.wash@gmail.com">auto.wash@gmail.com</a></div>
+						</div>
+						<div class="maps__footer">
+							<div class="maps__connection connection-maps">
+								<button class="connection-maps__button button">ЗАБРОНИРОВАТЬ СТОЛ</button>
+								<div class="connection-maps__phone">
+									<div class="connection-maps__tel"><a href="tel:+79175105759">+7 (917) 510-57-59</a></div>
+									<div class="connection-maps__sub-title">Звоните или оставляйте заявку</div>
+								</div>
+							</div>
+							<div class="maps__social social-maps">
+								<div class="social-maps__text">Мы в соц сетях:</div>
+								<div class="social-maps__social">
+									<picture><source srcset="img/social/facebook.webp" type="image/webp"><img src="img/social/facebook.png" alt="social" class="social-maps__item"></picture>
+									<picture><source srcset="img/social/vk.webp" type="image/webp"><img src="img/social/vk.png" alt="social" class="social-maps__item"></picture>
+									<picture><source srcset="img/social/youtube.webp" type="image/webp"><img src="img/social/youtube.png" alt="social" class="social-maps__item"></picture>
+									<picture><source srcset="img/social/instagram.webp" type="image/webp"><img src="img/social/instagram.png" alt="social" class="social-maps__item"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<button class="footer__button"><i class="fas fa-chevron-up"></i></button>
+				</div>
+				<div class="footer__column">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="footer__logo"></picture>
+					<div class="footer__text">© ООО СК «АПШЕРОН» Все права защищены. 2010-2020</div>
+					<ul class="footer__list">
+						<li class="footer__item"><a class="footer__link" href="">Пользовательское соглашение</a></li>
+						<li class="footer__item"><a class="footer__link" href="">Карта сайта</a></li>
+						<li class="footer__item"><a class="footer__link" href="">Политика конфиденциальности</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<div class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="home.html" class="menu-footer__link">О ресторане</a></li>
+							<li class="menu-footer__item"><a href="delivery.html" class="menu-footer__link">Условия доставки</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Возврат товара</a></li>
+							<li class="menu-footer__item"><a href="sale.html" class="menu-footer__link">Акции</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="cart" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><i class="fas fa-times"></i></button>
+				<div class="popup__body">
+					<picture><source srcset="img/popup/cart.webp" type="image/webp"><img src="img/popup/cart.png" alt="cart"></picture>
+					<h1 class="popup__title">КОРЗИНА ПУСТАЯ</h1>
+					<a href="" class="popup__button button">Посмотреть меню</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/509657b079.js?_v=20220208151503" crossorigin="anonymous"></script>
+	<script src="js/app.min.js?_v=20220208151503"></script>
+</body>
+
+</html>
