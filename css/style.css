@@ -1058,11 +1058,11 @@ body {
 
 .hero-page {
   background: url("../img/bg.png") top/cover no-repeat;
-  height: 70vh;
   margin-bottom: 2.5rem;
 }
 .hero-page__body {
-  padding-top: 160px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   max-width: 37.5rem;
   width: 100%;
 }
